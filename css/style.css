@@ -13,6 +13,8 @@
     --footer:#212A4A;
     --black:#060b1b;
     --twitter:#4ac7ec;
+    --github:#171515;
+    --linkedin:#0e76a8;
     --dribbble:#ff5da0;
     --success:#1ecab8;
     --danger:#f1646c;
@@ -164,10 +166,10 @@ section.profile .right ul.social li:nth-child(1) a{
     background: var(--secondary);
 }
 section.profile .right ul.social li:nth-child(2) a{
-    background: var(--twitter);
+    background: var(--linkedin);
 }
 section.profile .right ul.social li:nth-child(3) a{
-    background: var(--dark-blue);
+    background: var(--github);
 }
 
 
