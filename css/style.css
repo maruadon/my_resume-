@@ -30,6 +30,7 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   background: var(--dark);
   -webkit-font-smoothing: antialiased;
+  height: 5000px;
 }
 h1,
 h2,
@@ -243,22 +244,30 @@ section.about .content .right p {
   letter-spacing: 0.1px;
   margin-bottom: 1rem;
 }
-section.about .content .right p span:nth-child(1){ 
-    width: 130px;
-    float: left;  /* to put its position to the left */
-    font-weight: 500;
-    padding-right: 10px;
-    display: block; /*by default inline . to set width*/
-    position:relative  /*to put : after name date*/
+section.about .content .right p span:nth-child(1) {
+  width: 130px;
+  float: left; /* to put its position to the left */
+  font-weight: 500;
+  padding-right: 10px;
+  display: block; /*by default inline . to set width*/
+  position: relative; /*to put : after name date*/
 }
-section.about .content .right p span:nth-child(2){
-    padding-left: 150px;
-    display:block;
+section.about .content .right p span:nth-child(2) {
+  padding-left: 150px;
+  display: block;
 }
-section.about .content .right p span:nth-child(1):after{
-    content: ':';
-    position: absolute;
-    right: 0;
-    top:0;
+section.about .content .right p span:nth-child(1):after {
+  content: ":";
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-
+section.skills .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+section.skills .content .left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
