@@ -113,4 +113,13 @@ $(document).ready(function () {
       enable : true
     }
   });
+///slider 
+$('.slider').slick({
+  arrows: false,
+  autoplay: true
+});
+
+
+
+
 });
