@@ -21,13 +21,13 @@ $green:     #859900; */
   --primary: #002b36;
   --dark: #073642;
   --secondary: #2b55cc;
-  --info: #268bd2;
+  --info: #4b64c3;
   --ternary: #848db3;
   --pure: #eff2f9;
   --fade: #7081b9;
   --mild: #8997bd;
   --footer: #212a4a;
-  --black: #060b1b;
+  --black: #00212b;
   --twitter: #4ac7ec;
   --github: #171515;
   --linkedin: #0e76a8;
@@ -35,7 +35,7 @@ $green:     #859900; */
   --success: #1ecab8;
   --danger: #f1646c;
   --dark-blue: #28365f;
-  --dark-gray: #171f33;
+  --dark-gray: #00212b;
   --yellow: #f3c74d;
 }
 /* basic reset */
