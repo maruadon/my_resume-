@@ -303,7 +303,7 @@ section.skills .content .left .heading h5 {
   color: var(--mild);
 }
 section.skills .content .left p {
-  font-size: 14px;
+  font-size: 18px;
   color: var(--ternary);
   line-height: 1.7;
 }
@@ -329,6 +329,9 @@ section.skills .content .left .item:after {
   border-radius: 50%;
   margin-left: -21px;
 }
+section.skills .content .right{
+  margin-left : 34px;
+} 
 section.right .skill_wrapper .skill-box h4 {
   color: var(--ternary);
   font-size: 14px;
