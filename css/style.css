@@ -318,6 +318,10 @@ section.skills .content .left .item {
 section.skills .content .left .timeline_wrapper {
   border-left: 2px dotted var(--dark-blue);
 }
+.bim{
+  margin-bottom : 10px;
+  text-color : var(--pure);
+}
 section.skills .content .left .item:after {
   content: "";
   position: absolute;
